@@ -123,6 +123,30 @@
 			"TypeName": "FreeCamera",
 			"ParentID": "b0d72c3746caebca055e1f921ca21c7c",
 			"V": {}
+		},
+		{
+			"ID": "28f393d647550598554495a0bc0bb7c1",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "74a68a984824b4510d12589f199ad68f",
+			"Name": "StaticModel",
+			"Transform": {
+				"Scale": {
+					"X": 10000.0,
+					"Y": 100.0,
+					"Z": 10000.0
+				}
+			},
+			"Model": "50310067422bada39f9553b41c4869a4",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
 		}
 	]
 }
