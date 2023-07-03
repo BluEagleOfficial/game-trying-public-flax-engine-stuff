@@ -1,0 +1,267 @@
+{
+	"ID": "71644bb8496b954385c28698cb8dbdc5",
+	"TypeName": "FlaxEngine.SceneAsset",
+	"EngineBuild": 6339,
+	"Data": [
+		{
+			"ID": "71644bb8496b954385c28698cb8dbdc5",
+			"TypeName": "FlaxEngine.Scene",
+			"LightmapSettings": {
+				"IndirectLightingIntensity": 1.0,
+				"GlobalObjectsScale": 1.0,
+				"ChartsPadding": 3,
+				"AtlasSize": 1024,
+				"BounceCount": 1,
+				"CompressLightmaps": true,
+				"UseGeometryWithNoMaterials": true,
+				"Quality": 10
+			}
+		},
+		{
+			"ID": "49eb9a85489ab8cc4180069e411c3113",
+			"TypeName": "FlaxEngine.DirectionalLight",
+			"ParentID": "71644bb8496b954385c28698cb8dbdc5",
+			"Name": "Sun",
+			"Transform": {
+				"Translation": {
+					"X": 40.0,
+					"Y": 160.0,
+					"Z": 0.0
+				},
+				"Orientation": {
+					"X": 0.3826834559440613,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.9238795042037964
+				}
+			}
+		},
+		{
+			"ID": "a369e0da4f6cbbfaf20f8fb44e34fc08",
+			"TypeName": "FlaxEngine.Sky",
+			"ParentID": "71644bb8496b954385c28698cb8dbdc5",
+			"Name": "Sky",
+			"Transform": {
+				"Translation": {
+					"X": 40.0,
+					"Y": 150.0,
+					"Z": 0.0
+				}
+			},
+			"Sun": "49eb9a85489ab8cc4180069e411c3113"
+		},
+		{
+			"ID": "98f5313b4b9368987c6e32b8caf1dab3",
+			"TypeName": "FlaxEngine.SkyLight",
+			"ParentID": "71644bb8496b954385c28698cb8dbdc5",
+			"Name": "SkyLight",
+			"Brightness": 2.5,
+			"CustomTexture": "c54410104ff39427bc11e5bc761d66b0"
+		},
+		{
+			"ID": "d167e0404b2de2ee0952469b5fbcb5a1",
+			"TypeName": "FlaxEngine.Camera",
+			"ParentID": "71644bb8496b954385c28698cb8dbdc5",
+			"Name": "Camera",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 150.0,
+					"Z": -300.0
+				}
+			}
+		},
+		{
+			"ID": "f258fe4e4eaa8c62e290f697b9603e0a",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "71644bb8496b954385c28698cb8dbdc5",
+			"Name": "Cube",
+			"Transform": {
+				"Scale": {
+					"X": 100.0,
+					"Y": 1.0,
+					"Z": 100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "4a29402543c2b6e281619d93287775c2",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "71644bb8496b954385c28698cb8dbdc5",
+			"Name": "Cone",
+			"Transform": {
+				"Translation": {
+					"X": -1913.23681640625,
+					"Y": 100.0,
+					"Z": 4.66845703125
+				}
+			},
+			"Model": "1b4a643d44706750b2e35ea4e11e3663",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "d3c4e16c42b6442bb268dca33b5aff1b",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "71644bb8496b954385c28698cb8dbdc5",
+			"Name": "Cube 0",
+			"Transform": {
+				"Translation": {
+					"X": -260.214599609375,
+					"Y": 99.9998779296875,
+					"Z": 658.6107177734375
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "aea164854166e0f56bcf56a89b503770",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "71644bb8496b954385c28698cb8dbdc5",
+			"Name": "Capsule",
+			"Transform": {
+				"Translation": {
+					"X": -1034.668701171875,
+					"Y": 49.9998779296875,
+					"Z": 1521.416259765625
+				}
+			},
+			"Model": "3f82e57744f57c28285150b646ad2198",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "45bdd6624a6bdc491cf960809a62eced",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "71644bb8496b954385c28698cb8dbdc5",
+			"Name": "Cone 0",
+			"Transform": {
+				"Translation": {
+					"X": 337.92626953125,
+					"Y": 100.0,
+					"Z": 1416.0166015625
+				}
+			},
+			"Model": "1b4a643d44706750b2e35ea4e11e3663",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "f307e2124bc83d84ec735f963e3df455",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "71644bb8496b954385c28698cb8dbdc5",
+			"Name": "Sphere",
+			"Transform": {
+				"Translation": {
+					"X": 321.93408203125,
+					"Y": 99.9998779296875,
+					"Z": 917.5037841796875
+				}
+			},
+			"Model": "dd86c4724bf734c4959d23b3c74faa05",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "e2e4dd3741a3dc5939387686fcb2f8c3",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "71644bb8496b954385c28698cb8dbdc5",
+			"Name": "Cone 1",
+			"Transform": {
+				"Translation": {
+					"X": -254.67626953125,
+					"Y": 100.0001220703125,
+					"Z": 2153.894775390625
+				}
+			},
+			"Model": "1b4a643d44706750b2e35ea4e11e3663",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "4c1f493647e629a6ba7e7a8666a75a1d",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "71644bb8496b954385c28698cb8dbdc5",
+			"Name": "Cylinder",
+			"Transform": {
+				"Translation": {
+					"X": -646.606201171875,
+					"Y": 50.0,
+					"Z": 1320.6796875
+				}
+			},
+			"Model": "223aa9894e90973780ab508621517526",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		}
+	]
+}

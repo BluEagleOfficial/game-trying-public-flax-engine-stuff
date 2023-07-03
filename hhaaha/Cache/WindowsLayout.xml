@@ -4,7 +4,7 @@
 	</MainWindow>
 	<MasterPanel SelectedTab="0">
 		<Window Typename="::FlaxEditor.Windows.EditGameWindow">
-			<Data GridEnabled="False" ShowFpsCounter="True" ShowNavigation="True" NearPlane="8" FarPlane="20000" FieldOfView="60" MovementSpeed="6" OrthographicScale="1" UseOrthographicProjection="False" ViewFlags="122683391" />
+			<Data GridEnabled="False" ShowFpsCounter="True" ShowNavigation="True" NearPlane="8" FarPlane="20000" FieldOfView="60" MovementSpeed="8" OrthographicScale="1" UseOrthographicProjection="False" ViewFlags="122683391" />
 		</Window>
 		<Window Typename="::FlaxEditor.Windows.GameWindow">
 			<Data ShowGUI="True" ShowDebugDraw="False" DefaultViewportScaling="[]" CustomViewportScaling="[]" />
@@ -17,7 +17,7 @@
 				<Window Typename="::FlaxEditor.Windows.ToolboxWindow" />
 			</Panel>
 		</Panel>
-		<Panel DockState="9" SplitterValue="0.3817427" SelectedTab="0">
+		<Panel DockState="9" SplitterValue="0.5352697" SelectedTab="0">
 			<Window Typename="::FlaxEditor.Windows.ContentWindow">
 				<Data Split="0.2" Scale="1" ShowFileExtensions="False" ViewType="Tiles" />
 			</Window>
