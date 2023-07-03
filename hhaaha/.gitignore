@@ -1,2 +1,4 @@
 Cache/
 *.cache
+cache/
+*.dat
