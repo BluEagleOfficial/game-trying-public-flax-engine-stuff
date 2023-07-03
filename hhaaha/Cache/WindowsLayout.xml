@@ -1,6 +1,6 @@
 ﻿<DockPanelLayout Version="4">
 	<MainWindow IsMaximized="True">
-		<Bounds X="-8" Y="-8" Width="1936" Height="1048" />
+		<Bounds X="0" Y="0" Width="1920" Height="1032" />
 	</MainWindow>
 	<MasterPanel SelectedTab="0">
 		<Window Typename="::FlaxEditor.Windows.EditGameWindow">
