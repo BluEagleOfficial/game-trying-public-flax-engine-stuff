@@ -55,8 +55,7 @@
 					"Y": 249.3258056640625,
 					"Z": 0.0
 				}
-			},
-			"ProbeID": "1e1fb3a7447c1265b15967b480549d98"
+			}
 		},
 		{
 			"ID": "deecf0894777293a4f478dadacf2a6f8",
@@ -95,7 +94,6 @@
 					"Z": 0.0
 				}
 			},
-			"BakedProbe": "1c0e10484ff57d402275289550564b9f",
 			"Mode": 0
 		},
 		{
@@ -125,18 +123,18 @@
 			"V": {}
 		},
 		{
-			"ID": "28f393d647550598554495a0bc0bb7c1",
+			"ID": "f9bd5bec469c67bcf83feb97647ea43c",
 			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "74a68a984824b4510d12589f199ad68f",
-			"Name": "StaticModel",
+			"Name": "Capsule",
 			"Transform": {
-				"Scale": {
-					"X": 10000.0,
-					"Y": 100.0,
-					"Z": 10000.0
+				"Translation": {
+					"X": -254.25048828125,
+					"Y": 219.5618133544922,
+					"Z": -96.01641082763672
 				}
 			},
-			"Model": "50310067422bada39f9553b41c4869a4",
+			"Model": "3f82e57744f57c28285150b646ad2198",
 			"Buffer": {
 				"Entries": [
 					{
