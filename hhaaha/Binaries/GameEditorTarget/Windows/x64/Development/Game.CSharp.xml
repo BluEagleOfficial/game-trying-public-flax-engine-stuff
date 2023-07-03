@@ -4,5 +4,22 @@
         <name>Game.CSharp</name>
     </assembly>
     <members>
+        <member name="T:Game.d">
+            <summary>
+            d Script.
+            </summary>
+        </member>
+        <member name="M:Game.d.OnStart">
+            <inheritdoc/>
+        </member>
+        <member name="M:Game.d.OnEnable">
+            <inheritdoc/>
+        </member>
+        <member name="M:Game.d.OnDisable">
+            <inheritdoc/>
+        </member>
+        <member name="M:Game.d.OnUpdate">
+            <inheritdoc/>
+        </member>
     </members>
 </doc>
